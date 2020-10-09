@@ -1,1 +1,1 @@
-#TypeScript Django permissions codegen
+# TypeScript Django permissions codegen
