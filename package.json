@@ -41,9 +41,9 @@
   "homepage": "https://github.com/nibytes/typescript-django-permissions-codegen",
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint",
+      "pre-commit": "yarn lint && npm test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "yarn lint"
+      "pre-push": "yarn lint && npm test"
     }
   },
   "devDependencies": {
